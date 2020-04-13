@@ -19,6 +19,10 @@
   with_items:
     - java
     - python  
+    - epel-release
+    - ansible
+    - python36
+    - python3-pip
 
 - name: Add Jenkins to sudoers group
   become: true
